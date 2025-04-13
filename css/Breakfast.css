@@ -1,0 +1,170 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#66785F;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #B2C9AD;
+    color: white;
+    z-index: 999;
+    
+}
+nav .nav-links {
+    display: flex;
+    gap: 25px; 
+    margin-left: auto; 
+    align-items: center; 
+}
+.search-bar {
+    margin-left: 40px; 
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #328c65;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.breakfast-hero {
+    background-image: url(../images/pamahaw.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+.breakfast-hero h1 p{
+    font-family: "Oswald";
+    
+    
+}
+.breakfast-hero h1 {
+    
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.breakfast-hero p {
+    
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.category {
+   text-align: center;
+   padding: 40px 20px;
+   background-color: #91AC8F;
+}
+
+.category h2 {
+   font-size: 2.5rem;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+.category-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+   
+}
+
+.category-card {
+   width: 220px;
+   border-radius: 8px;
+   text-align: center;
+   overflow: hidden;
+   transition: transform 0.3s ease-in-out;
+   
+}
+
+.category-card img {
+   width: 100%;
+   height: 150px;
+   object-fit: cover;
+}
+
+.category-card h3 {
+   font-size: 1.5rem;
+   color: #333;
+   padding: 15px;
+   background-image: url(../images/Screenshot\ 2025-03-29\ 175337.png);
+   color: rgb(255, 253, 253);
+   margin: 0;
+}
+
+.category-card:hover {
+   transform: translateY(-5px);
+}
+
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+.recipe-card {
+    background-color: white;
+    width: 30%;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.recipe-card-content {
+    padding: 20px;
+}
+.recipe-card h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+.recipe-card p {
+    color: #555;
+    margin-bottom: 10px;
+}
+.recipe-card:hover {
+    transform: translateY(-10px);
+}
